@@ -629,6 +629,9 @@ p {
         }
         #logo {
             text-align: center;
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
         }
         .fade-in-image {
             display: flex;
@@ -639,7 +642,7 @@ p {
             text-align: center;
             min-height: 100vh; /* Ensures it takes at least the full height of the viewport */
             box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
-            margin-top: -6rem;
+            margin-top: -8rem;
         }
         
         video {
@@ -660,7 +663,8 @@ p {
             justify-content: center;
          }
          .p {
-            margin-top: -49rem;
+            margin-top: 0rem;
+            font-size: 400px;
             z-index: 1000;
          }
          .p2 {
@@ -685,6 +689,12 @@ p {
             font-size: 24px;
             margin: 0 auto;
             
+         }
+         #logo-in-about {
+            text-align: center;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
          }
          #contact-2{
             width: 100%;
