@@ -631,7 +631,7 @@ p {
             text-align: center;
             display: flex;
             margin-right: auto;
-            margin-left: 0rem;
+            margin-left: -1.5rem;
         }
         
         .fade-in-image {
@@ -655,7 +655,7 @@ p {
         }
          #h2-in-about {
             width: 100%;
-            font-size: 22px;
+            font-size: 20px;
             margin: 0 auto;
             margin-top: 0;
          }
@@ -697,7 +697,7 @@ p {
             display: flex;
             margin-left: auto;
             margin-right: auto;
-            margin-left: 0rem;
+            margin-left: -1.5rem;
          }
          #contact-2{
             width: 100%;
