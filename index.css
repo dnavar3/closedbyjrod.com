@@ -631,7 +631,7 @@ p {
             text-align: center;
             display: flex;
             margin-right: auto;
-            margin-left: -1.5rem;
+            margin-left: -2rem;
         }
         
         .fade-in-image {
@@ -665,7 +665,7 @@ p {
             justify-content: center;
          }
          .p {
-            margin-top: -80rem;
+            margin-top: -50rem;
             font-size: 24px;
             z-index: 1000;
          }
@@ -697,7 +697,7 @@ p {
             display: flex;
             margin-left: auto;
             margin-right: auto;
-            margin-left: -1.5rem;
+            margin-left: -2rem;
          }
          #contact-2{
             width: 100%;
