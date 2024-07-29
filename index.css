@@ -617,9 +617,80 @@ p {
  
 /* Media query for mobile devices */
 @media (max-width: 968px) {
-
-     
+    body {
+        
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
+    .home-buttons {
+        gap: .4rem;
+    }
+     .fade-in-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        justify-content: center;
+        text-align: center;
+        margin-top: -4rem;
+     }
+     video {
+        margin-left: -10rem;
+     }
+     #h2-in-about {
+        width: 100%;
+        font-size: 22px;
+        margin-top: -34rem;
+        
+     }
+     #videos {
+        margin-top: -10rem;
+     }
+     .p {
+        margin-top: -14rem;
+     }
+     .p2 {
+        margin-top: -3rem;
+     }
+     .yess {
+        display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+        margin-bottom: 500px;
+        background-size: contain;
+        justify-content: center;
+
+       
+        
+     }
+     .yes {
+        height: 800px;
+        margin: 0;
+        width: 500px;
+        min-height: 400px;
+     }
+     #h2-in-about-2 {
+        width: 100%;
+        font-size: 26px;
+        
+        
+        
+     }
+     #contact-2{
+        width: 150px;
+     }
+     .contact-form-container {
+        max-width: 100%;
+     }
+     .footer-container{
+        display: flex;
+        flex-direction: column;
+     }
+    }
+     
+    
 
 @media (max-width: 670px) {
     body {
@@ -692,8 +763,76 @@ p {
      }
     }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 
-     
+    body {
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
     }
+    .home-buttons {
+        gap: .4rem;
+    }
+     .fade-in-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        justify-content: center;
+        text-align: center;
+        margin-top: -4rem;
+     }
+     video {
+        margin-left: -10rem;
+     }
+     #h2-in-about {
+        width: 100%;
+        font-size: 22px;
+        margin-top: -34rem;
+        
+     }
+     #videos {
+        margin-top: -10rem;
+     }
+     .p {
+        margin-top: -14rem;
+     }
+     .p2 {
+        margin-top: -3rem;
+     }
+     .yess {
+        display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+        margin-bottom: 500px;
+        background-size: contain;
+        justify-content: center;
+
+       
+        
+     }
+     .yes {
+        height: 800px;
+        margin: 0;
+        width: 500px;
+        min-height: 400px;
+     }
+     #h2-in-about-2 {
+        width: 100%;
+        font-size: 26px;
+        
+        
+        
+     }
+     #contact-2{
+        width: 150px;
+     }
+     .contact-form-container {
+        max-width: 100%;
+     }
+     .footer-container{
+        display: flex;
+        flex-direction: column;
+     }
+    }
+    
     
