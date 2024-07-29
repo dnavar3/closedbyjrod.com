@@ -664,6 +664,9 @@ p {
             display: flex;
             justify-content: center;
          }
+         #about {
+            margin-top: -3rem;
+         }
          .p {
             margin-top: -50rem;
             font-size: 24px;
@@ -688,7 +691,7 @@ p {
          }
          #h2-in-about-2 {
             width: 100%;
-            font-size: 23px;
+            font-size: 20px;
             margin: 0 auto;
             
          }
