@@ -622,8 +622,13 @@ p {
     }
 
 @media (max-width: 670px) {
+    body {
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
     .home-buttons {
-        gap: .5rem;
+        gap: .4rem;
     }
      .fade-in-image {
         display: flex;
