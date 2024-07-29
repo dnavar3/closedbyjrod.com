@@ -646,7 +646,9 @@ p {
             margin-top: -10rem;
             
         }
-        
+        #about-info-2{
+            line-height: 400px;
+        }
         video {
             margin: 0 auto;
             display: block;
@@ -706,7 +708,7 @@ p {
             width: 100%;
             max-width: 150px;
             margin: 0 auto;
-            margin-top: -20rem;
+            margin-top: -25rem;
             margin-bottom: 10rem;
          }
          .contact-form-container {
