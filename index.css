@@ -631,7 +631,7 @@ p {
             text-align: center;
             display: flex;
             margin-right: auto;
-            margin-left: -3rem;
+            margin-left: 0rem;
         }
         
         .fade-in-image {
@@ -643,7 +643,7 @@ p {
             text-align: center;
             min-height: 100vh; /* Ensures it takes at least the full height of the viewport */
             box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
-            margin-top: -8rem;
+            margin-top: -10rem;
             
         }
         
@@ -697,7 +697,7 @@ p {
             display: flex;
             margin-left: auto;
             margin-right: auto;
-            margin-left: -3rem;
+            margin-left: 0rem;
          }
          #contact-2{
             width: 100%;
