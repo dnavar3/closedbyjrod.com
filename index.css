@@ -4,6 +4,17 @@ html, body {
     margin: 0;
     padding: 0;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    touch-action: manipulation;
+    -ms-touch-action: manipulation;
+}
 
 body {
     margin: 0;
@@ -450,10 +461,17 @@ body {
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+   
+}
+#form-h2{
+    display: flex;
+    justify-content: center;
 }
 #contactt {
-    background-color: #000000;
-    line-height: 60px;
+   
+    line-height: 30px;
     margin-top: 0rem;
     text-align: center;
     margin-bottom: 0rem;
@@ -461,11 +479,31 @@ body {
 }
 
 /* Flexbox to arrange inputs in two columns */
-#contact-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+#contact-text {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
     
+
+}
+#contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center
+}
+
+#contact-form textarea {
+    grid-column: span 2;
+}
+
+.contact-item {
+    flex: 1 1 45%; /* Adjust the width of each item to 45% to allow space for gaps */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    margin-bottom: 20px; /* Add some margin at the bottom for spacing */
 }
 
 /* Style for form title */
@@ -491,7 +529,7 @@ body {
     padding: 10px;
     border: 1px solid #ffffff;
     border-radius: 3px;
-    width: 48%; /* Adjust width for two-column layout */
+    width: 99%; /* Adjust width for two-column layout */
     background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -521,13 +559,11 @@ body {
     background-color: rgb(61, 61, 61);
 }
 
-#contact-text {
-    text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
 
+#contact-form button {
+    grid-column: span 2;
+    align-self: center;
 }
-
 /* Footer styles */
 body {
     font-family: Arial, sans-serif;

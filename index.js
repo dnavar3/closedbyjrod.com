@@ -6,7 +6,7 @@ document.getElementById('homeButton').addEventListener('click', function() {
 });
 
 document.getElementById('contact').addEventListener('click', function() {
-    document.getElementById('contactt').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('form-h2').scrollIntoView({ behavior: 'smooth' });
 });
 document.getElementById('videosButton').addEventListener('click', function() {
     document.getElementById('videos').scrollIntoView({ behavior: 'smooth' });
