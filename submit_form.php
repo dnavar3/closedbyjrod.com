@@ -1,11 +1,22 @@
 <?php
+// Display errors for debugging (remove in production)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Collect the form data
-    $firstName = htmlspecialchars($_POST['first-name']);
-    $lastName = htmlspecialchars($_POST['last-name']);
-    $email = htmlspecialchars($_POST['email']);
-    $phone = htmlspecialchars($_POST['phone']);
-    $message = htmlspecialchars($_POST['message']);
+    // Collect and sanitize form data
+    $firstName = htmlspecialchars(trim($_POST['first-name']));
+    $lastName = htmlspecialchars(trim($_POST['last-name']));
+    $email = htmlspecialchars(trim($_POST['email']));
+    $phone = htmlspecialchars(trim($_POST['phone']));
+    $message = htmlspecialchars(trim($_POST['message']));
+
+    // Validate email address
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo 'Invalid email address. Please go back and try again.';
+        exit;
+    }
 
     // Set the recipient email address
     $to = 'dnavar15@icloud.com'; // Replace with your email address
@@ -32,8 +43,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo 'There was a problem with your submission. Please try again.';
 }
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 ?>
