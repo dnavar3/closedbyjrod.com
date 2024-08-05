@@ -12,10 +12,10 @@ document.getElementById('videosButton').addEventListener('click', function() {
     document.getElementById('videos').scrollIntoView({ behavior: 'smooth' });
 });
 document.getElementById('contact-2').addEventListener('click', function() {
-    document.getElementById('contactt').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('form-h2').scrollIntoView({ behavior: 'smooth' });
 });
 document.getElementById('home-contact').addEventListener('click', function() {
-    document.getElementById('contactt').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('form-h2').scrollIntoView({ behavior: 'smooth' });
 });
 
 /* scripts.js */

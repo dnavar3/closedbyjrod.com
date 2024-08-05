@@ -60,7 +60,6 @@ body {
     max-height: 40px;
     
 }
-
 .socials img {
     max-width: 30px; /* Set your desired width */
     max-height: 30px; /* Set your desired height */
@@ -128,6 +127,7 @@ body {
 .home-buttons button:hover {
     text-decoration: underline; /* Optional: Add underline on hover */
 }
+
 .slide-in-left {
     opacity: 0;
     transform: translateX(-100%);
