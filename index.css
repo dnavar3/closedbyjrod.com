@@ -693,16 +693,23 @@ p {
             max-width: 100%; /* Ensures the video does not exceed the width of its container */
             height: auto; /* Keeps the aspect ratio of the video */
         }
+        #videos {
+            margin-top:-900px ;
+        }
          #h2-in-about {
             width: 100%;
             font-size: 20px;
             margin: 0 auto;
             margin-top: 0;
          }
+         .embed-container{
+            margin-top: 300px;
+         }
          #videos {
-            margin-top: 0;
+            margin-top: 500px;
             display: flex;
             justify-content: center;
+            margin-bottom: -200px;
          }
          #about {
             margin-top: -3rem;
@@ -758,6 +765,17 @@ p {
             flex-direction: column;
             align-items: center;
          }
+         .p {
+            margin-top: -500px;
+        }
+        #logo-in-about {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .h1-in-b1 {
+            margin-top: -250px;
+        }
     }
     html, body {
         max-width: 100%;
@@ -770,3 +788,5 @@ p {
         touch-action: manipulation;
         -ms-touch-action: manipulation;
     }
+
+   
